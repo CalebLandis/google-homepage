@@ -34,7 +34,7 @@
 .buttons{
     display:block;
     position: relative;
-    margin-left: 45%;
+    margin-left: 44%;
     margin-right: auto;
     top: 0px;
     align-items: center;
@@ -43,20 +43,20 @@
 }
 .bottom-left{
     display:block;
-    position: relative;
-    margin-left: 0%;
+    position: absolute;
+    margin-left: 2%;
     margin-right: auto;
-    top: 600px;
+    top: 915px;
     align-items: center;
     width: auto;
     object-position: left bottom;
 }
 .bottom-center{
     display:block;
-    position: relative;
-    margin-left: auto;
-    margin-right: 50%;
-    top: 600px;
+    position: absolute;
+    margin-left: 44%;
+    margin-right: auto;
+    top: 900px;
     align-items: center;
     width: auto;
     object-position: left bottom;
@@ -64,10 +64,10 @@
 }
 .bottom-right{
     display:block;
-    position: relative;
-    margin-left: 80%;
+    position: absolute;
+    margin-left: 90%;
     margin-right: auto;
-    top: 600px;
+    top: 917px;
     align-items: center;
     width: auto;
     object-position: left bottom;
