@@ -1,3 +1,7 @@
+body{
+    height:98vh;
+}
+
 #header{
     display: flex;
     justify-content: space-between;
@@ -43,12 +47,12 @@
     width: auto;
     object-position: center bottom;
 }
-.bottom-left{
+/* .bottom-left{
     display:block;
     position: absolute;
     margin-left: 2%;
     margin-right: auto;
-    top: 915px;
+    bottom: 2px;
     align-items: center;
     width: auto;
     object-position: left bottom;
@@ -58,12 +62,11 @@
     position: absolute;
     margin-left: 44%;
     margin-right: auto;
-    top: 900px;
+    bottom: 2px;
     align-items: center;
     width: auto;
     object-position: left bottom;
     
-  
     
    
 
@@ -73,12 +76,14 @@
     position: absolute;
     margin-left: 90%;
     margin-right: auto;
-    top: 917px;
+    bottom: 2px;
     align-items: center;
     width: auto;
     object-position: left bottom;
-
-}
+    
+   
+    
+} */
 .search{
     width: fit-content;
     display:block;
@@ -97,5 +102,32 @@
     padding-right: 33px;
     height: 30px;
 }
+footer>div>a{
+    color:green;
+    margin-bottom: 20px;
+}
 
-
+footer{
+    background-color: rgb(224, 222, 222);
+    display:block;
+    position: absolute;
+    width: 99.5vw;
+    /* margin-left: 90%; */
+    /* margin-right: auto; */
+    bottom: 0px;
+    /* align-items: center; */
+    /* width: auto; */
+    /* object-position: left bottom; */
+    padding:.5em;
+    margin-left: -1em;;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+#leaf{
+    height:.75em;
+}
