@@ -93,6 +93,7 @@ body{
     top: -10px;
     align-items: center;
     object-position: center bottom;
+    outline: none;
 
 }
 .search input{
@@ -103,7 +104,7 @@ body{
     height: 30px;
 }
 footer>div>a{
-    color:green;
+    
     margin-bottom: 20px;
 }
 
